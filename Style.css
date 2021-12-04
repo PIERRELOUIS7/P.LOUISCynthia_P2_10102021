@@ -1,0 +1,592 @@
+@font-face {
+    font-family:"Raleway"; /*** police d'écrture ***/
+    src:url("Raleway/Raleway-Italic-VariableFont_wght.ttf") format("ttf");
+    src:url("Raleway/Raleway-VariableFont_wght.ttf") format("ttf");
+    src:url("Raleway/Raleway-Light.ttf") format("ttf");
+    src:url("Raleway/Raleway-Medium.ttf") format("ttf");
+}
+
+body {
+    background-color: white;
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+h2 {
+    color:black;
+    font-weight: bold;
+    font-size: 17px;
+}
+h3 {
+    color:black;
+    font-weight: bold;
+    font-size: 14px;
+}
+p {
+    color:grey;
+    font-weight: bold;
+    font-size: 10px;
+    padding-left: 20px;
+}
+ul {
+    color:black;
+}
+
+/******** Toutes informations sur le logo et onglets hébergements, activités ******/
+
+.logo-loca {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0;
+    padding: 0;
+}
+
+/**** lien logo ****/
+.logo a {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**** image du logo ****/
+.img-Booki {
+    width: 40%;
+    margin-top: 0;
+    padding-left: 20px;
+    object-fit: cover;
+}
+
+/**** ul de la nav ****/
+.top-menu {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**** ul du header ****/
+.onglets-top {
+    color:black;
+    font-weight: bold;
+    list-style-type: none;
+    display:flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.onglets-top li {
+    padding: 20px;
+}
+
+/**** lien Hébergement****/
+.different-rooms {
+    border-top:#0065fc solid 2px;
+    padding-top: 30px;
+    color:#0065fc;
+    font-size: 13px
+}
+
+/**** Trait gris au dessus su lien Activités****/
+.act-top {
+    border-top:white solid 2px;
+    padding: 37px 0 0 0;
+    font-size: 13px;
+}
+
+/**** Couleur bleu d'Activités au pointage avec la souris et bordure bleue ****/
+.act-top {
+    color: #0065fc;
+    border-top: #0065fc solid 2px;
+    font-size: 13px;
+}
+
+/*Couleur bleu au survol des liens (li) du menu*/
+a:hover {
+    color: #0065fc;
+}
+
+/****Sous-titres et le formulaire de recherche****/ 
+
+/**** Texte introduction ****/
+.introduction { 
+    color:black;
+    margin: 0;
+    padding-left: 20px;
+}
+
+/****Le texte (p) de l'introduction ****/
+.introduction p {
+    font-size: 16px;
+}
+
+/****Formulaire de recherche****/
+
+/****La classe form****/
+.form { 
+    border:none 2px;
+    margin-left: 0px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+
+/**** la balise form****/
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/*Pour ajouter une main au survol du bouton Rechercher*/
+form button {
+    cursor: pointer;
+}
+
+/**** Icône maps******/
+.fas.fa-map-marker-alt { 
+    color:black;
+    background-color: #f2f2f2;
+    font-size: 17px;
+    border:#f2f2f2 none 2px;
+    border-radius: 15px 0 0 15px;
+    padding: 10px 15px 15px 18px;
+}
+
+/**** Texte Marseille,France ****/
+.country { 
+    font-weight: bold;
+    color:black;
+    font-size: 13px;
+    padding: 12px 0px 12px 15px;
+    border: #f2f2f2 1px solid;
+    background-color: white;
+}
+
+/**** Bouton Rechercher ****/
+.search-big-screen, .search-small-screen {
+    background-color: #0065fc;
+    color:white;
+    font-weight: normal;
+    font-size: 12px;
+    border:#0065fc none;
+    border-radius: 0px 12px 12px 0px;
+    padding: 13px 17px 13px 17px;
+}
+
+/*Icône/bouton de recherche désactivée*/
+.search-small-screen {
+    display: none;
+}
+
+/*Bouton Rechercher du formulaire pour le desktop*/
+.search-big-screen {
+    display: block;
+}
+
+/***** Le titre - les filtres - div information ******/
+
+/**** Le titre et les filtres ****/
+.filters { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 20px;
+}
+
+/**** Au niveau des filtres; la couleur du texte change en bleu et le texte grossit, au survol avec le cursur ****/
+.filters span:hover {
+    color: #0065fc;
+    font-size: 18px;
+}
+
+/**** Titres h3 des filtres ****/
+.filters h3 {
+    font-size: 15px;
+}
+
+/**** Tous les boutons ****/
+.economic, .family, .romantic, .animals {
+    background-color: white;
+    border: #f2f2f2 solid 2px;
+    color: #0065fc;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 25px;
+    margin: 0 0 0 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+/**** Icônes des filtres ****/
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+    background-color: #dcedf8;
+    border: none; 
+    border-radius: 40%;
+    font-size: 15px;
+    padding: 12px;
+    margin: 0 15px 0 -9px;
+}
+
+/**** Icône d'un billet ****/
+.fa-money-bill-wave {
+    width: 50%;
+    height: 50%;
+}
+
+/**** Icône d'un enfant ****/
+.fa-child {
+    width: 16px;
+}
+
+/**** Titres des filtres en noirs ****/
+.black {  
+    color:black;
+    padding: 10 30 10 30;
+}
+
+/**** Info 500 logements disponible ****/
+.information { 
+    padding: 30px 0 30px 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/**** La taille du paragraphe est différente de l'icône ****/
+.info p {
+    font-size: 12px;
+    padding-left: 10px;
+    color: grey;
+}
+
+/**** Icône information ****/
+.fa-info { 
+    background-position: left;
+    color:#0065fc;
+    font-size: 8px;
+    border: #f2f2f2 2px solid;
+    padding: 6px 9px 6px 9px;
+    border-radius: 50%;
+}
+
+/****  La section hébergement à Marseille et Les plus populaires ****/
+
+/**** Les deux parties rental-hotel (Hébergements à Marseille) et the-super (Les plus populaires)****/
+.container { 
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 25px 0 25px;
+    flex: 2;
+}
+
+/**** La section Hébergements à Marseille ****/
+
+/**** Titre Hébergements à Marseille et toutes les div hotel****/
+.rental-hotel {  
+    background-color: #f2f2f2;
+    border:#f2f2f2 none 1px;
+    border-radius: 20px;
+    flex: 1 1 100px;
+    padding: 15px 10px 15px 10px;
+}
+
+/**** Le titre h2 de la section Hébergements à Marseille ****/
+.rental-hotel h2 {
+    padding: 0 0 0 15px;
+}
+
+/**** Toutes les div hotel ****/
+.rooms {  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*Une div image/titre/tarif/icônes étoiles*/
+.rental { 
+    margin: 0 15 15 15px;
+    border: white 4px solid;
+    background-color: white;
+    border-radius: 25px;
+    width: 28%;
+    cursor: pointer;
+    padding: 20 15 15 20;
+}
+
+/**** Les div deviennent grises lorsqu'on les survol avec le curseur ****/
+.hotel:hover {
+    background-color: #f2f2f2;
+}
+
+/**** Espace entre le texte ****/
+.element-hot { 
+    padding: 0 0 17px 10px;
+    line-height: 7px;
+}
+
+/**** Les images de la section Hébergements à Marseille ****/
+.image { 
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+/**** Les 5 icônes étoiles ****/
+.stars {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+/**** Couleur des icônes étoiles en gris ****/
+.grey { 
+    color:#f2f2f2;
+    font-size: 9px;
+}
+
+/**** Couleur des icônes étoiles en bleue ****/
+.blue { 
+    color:#0065fc;
+    font-size: 9px;
+}
+
+/**** Lien Afficher plus ****/
+.show-more a {  
+    display: flex;
+    align-content: flex-end;
+    padding: 70px 0 0 0px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+/***** La section Les plus populaires *****/
+
+/**** le titre - toutes les div favorite ****/
+.the-super {
+    background-color: #f2f2f2;
+    border: #f2f2f2 none 1px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px;
+    margin-left: 30px;
+}
+
+/**** Titre Les plus populaires ****/
+.popular {  
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/**** Le titre h2 de la section Les plus populaires ****/
+.popular h2 {
+    padding: 35px;
+}
+
+/**** Icône d'une courbe ****/
+.fas.fa-chart-line { 
+    font-size: 15px;
+    color:black;
+}
+
+/**** Englobe toutes les div favorite ****/
+.favorites-rooms {  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**** Les div de la section Les plus populaires ****/
+.favorite { 
+    border: white 2px solid;
+    background-color: white;
+    margin-bottom: 35px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    height: 155px;
+    width: 100%;
+    cursor: pointer;
+}
+
+/**** Couleur grise au survol avec la souris ****/
+.favorite:hover {
+    background-color: #f2f2f2;
+}
+
+/**** Image - le titre (h3) - les icônes étoiles - des div favorite de la section Les plus populaires ****/
+.text {
+    padding: 10px 0 0 0;
+}
+
+/*Espace entre les icônes étoiles et le texte*/
+.space-stars {
+    padding: 25px 0 0 0;
+}
+
+/**** Images de la section Les plus populaires ****/
+.images { 
+    margin: 2px;
+    border-radius: 20px 0 0 20px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    object-fit: cover;
+}
+
+/**** La partie Activité à Marseille ****/
+
+/**** La section Activités à Marseille ****/
+.activities {
+    padding: 50px 30px 5px 30px;
+}
+
+/**** Titre h2 de la section Activités à Marseille ****/
+.activities h2 {
+    padding-left: 5px;
+}
+
+/**** Tous les liens a de la section Activités à Marseille ****/
+.places {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+/***** Liens de la section Activités à Marseille ****/
+.places a {
+    margin-right: 25px;
+    margin-bottom: 40px;
+    border: 1px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+/**** Les titres de la section Activités à Marseille ****/
+.places h3 {
+    flex: 1;
+}
+
+/**** Les div de viennent grises au survol ****/
+.places a:hover {
+    background-color: #f2f2f2;
+}
+
+/**** Les div des 2 grandes et 4 petites images de la section Activités à Marseille ****/
+.img-tall, .img-small {
+    width: 30%;
+    cursor: pointer;
+}
+
+/**** Les div des 2 grandes images de la section Activités à Marseille ****/
+.img-tall {
+    display: flex;
+    flex-direction: column;
+    border:solid 1px white;
+    border-radius: 25%;
+    padding-bottom: 20px;
+}
+
+/**** Les div des 4 petites images de la section Activités à Marseille ****/
+.img-small {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/**** Les 2 grandes images de la section Activités à Marseille ****/
+.img-tall img {
+    flex: 2;
+}
+
+/**** Les images de la section Activités à Marseille ****/
+.activities a img {
+    border: 1px solid white;
+    border-radius: 22px 22px 0 0;
+    object-fit: cover;
+}
+
+/**** La première grande image de la section Activités à Marseille ****/
+.img-vieux-port { 
+    border:solid 1px white;
+    border-radius: 25%;
+    width: 100%;
+    min-height: 400px;
+}
+
+/**** La deuxième grande image de la section Activités à Marseille ****/
+.img-parc-calanques { 
+    border:solid 1px white;
+    border-radius: 25%;
+    width: 100%;
+    min-height: 400px;
+}
+
+/**** Les 4 petites images de la section Activités à Marseille ****/
+.img-visit { 
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+}
+
+/***** Le footer ****/
+
+/**** Tous le footer ****/
+.footer {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/**** Les 3 nav du footer ****/
+.bloc-footer-services { 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 25%;
+    padding-right: 105px;
+}
+
+/**** Les 3 ul du footer ****/
+.liste-services { 
+    font-size: 15px;
+    list-style-type: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+/**** Les liens du footer ****/
+a {
+    list-style-position: outside;
+    list-style-type: none;
+    color:black;
+    text-decoration: none;
+    margin:0;
+}
+
