@@ -1,3 +1,32 @@
-@media screen {
+@media screen and (max-width: 1262px) {
+
+    .rental {
+        margin: 0 5px 15px 5px;
+        width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    .img-visit:
+}
+
+@media  screen and (max-width: ) {
+    .rental-hotel, .popular {
+
+    }
+}
+/**** Hébergement à Marseille: 832px ****/
+.container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 0 25px 0 25px;
+}
+
+.rental-hotel {
+    background-color: #f2f2f2;
+    padding: 15px 10px 15px 20px;
+}
+.rental {
     
 }

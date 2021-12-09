@@ -14,14 +14,14 @@ body {
 }
 
 h1 {
-    font-size: 15px;
+    font-size: 22px;
     padding-left: 20px;
 }
 
 h2 {
     color:black;
     font-weight: bold;
-    font-size: 17px;
+    font-size: 16px;
 }
 h3 {
     color:black;
@@ -29,9 +29,9 @@ h3 {
     font-size: 14px;
 }
 p {
-    color:grey;
-    font-weight: bold;
-    font-size: 10px;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
     padding-left: 20px;
 }
 ul {
@@ -57,7 +57,7 @@ ul {
 
 /**** image du logo ****/
 .img-Booki {
-    width: 40%;
+    width: 50%;
     margin-top: 0;
     padding-left: 20px;
     object-fit: cover;
@@ -87,16 +87,18 @@ ul {
 /**** lien Hébergement****/
 .different-rooms {
     border-top:#0065fc solid 2px;
-    padding-top: 30px;
+    padding-top: 15px;
     color:#0065fc;
-    font-size: 13px
+    font-size: 16px;
+    font-weight: normal;
 }
 
 /**** Trait gris au dessus su lien Activités****/
 .act-top {
     border-top:white solid 2px;
-    padding: 37px 0 0 0;
+    padding: 20px 0 0 0;
     font-size: 13px;
+    font-weight: normal;
 }
 
 /**** Couleur bleu d'Activités au pointage avec la souris et bordure bleue ****/
@@ -172,8 +174,8 @@ form button {
 .search-big-screen, .search-small-screen {
     background-color: #0065fc;
     color:white;
-    font-weight: normal;
-    font-size: 12px;
+    font-weight: bold;
+    font-size: 13px;
     border:#0065fc none;
     border-radius: 0px 12px 12px 0px;
     padding: 13px 17px 13px 17px;
@@ -229,7 +231,7 @@ form button {
 .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
     background-color: #dcedf8;
     border: none; 
-    border-radius: 40%;
+    border-radius: 50%;
     font-size: 15px;
     padding: 12px;
     margin: 0 15px 0 -9px;
@@ -237,7 +239,7 @@ form button {
 
 /**** Icône d'un billet ****/
 .fa-money-bill-wave {
-    width: 50%;
+    width: 18%;
     height: 50%;
 }
 
@@ -249,7 +251,7 @@ form button {
 /**** Titres des filtres en noirs ****/
 .black {  
     color:black;
-    padding: 10 30 10 30;
+    padding: 10px 10px 10px 5px;
 }
 
 /**** Info 500 logements disponible ****/
@@ -265,7 +267,7 @@ form button {
 /**** La taille du paragraphe est différente de l'icône ****/
 .info p {
     font-size: 12px;
-    padding-left: 10px;
+    padding-left: 20px;
     color: grey;
 }
 
@@ -277,6 +279,10 @@ form button {
     border: #f2f2f2 2px solid;
     padding: 6px 9px 6px 9px;
     border-radius: 50%;
+}
+
+.fa info p {
+    padding-left: 20px;
 }
 
 /****  La section hébergement à Marseille et Les plus populaires ****/
@@ -336,6 +342,9 @@ form button {
     padding: 0 0 10px 10px;
     line-height: 5px;
 }
+.element-hot p {
+    padding-left: 0;
+}
 
 /**** Les images de la section Hébergements à Marseille ****/
 .image { 
@@ -372,6 +381,7 @@ form button {
     align-content: center;
     font-weight: bold;
     font-size: 15px;
+    padding-top: 100px;
 }
 
 /***** La section Les plus populaires *****/
@@ -434,6 +444,10 @@ form button {
 /**** Image - le titre (h3) - les icônes étoiles - des div favorite de la section Les plus populaires ****/
 .text {
     padding: 10px 0 0 0;
+}
+
+.text p {
+    padding-left: 0;
 }
 
 /*Espace entre les icônes étoiles et le texte*/
