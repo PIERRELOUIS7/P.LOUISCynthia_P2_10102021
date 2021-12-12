@@ -1,13 +1,13 @@
 @media screen and (max-width: 1262px) {
 
     .rental {
-        margin: 0 5px 15px 5px;
+        /*margin: 0 5px 15px 5px;*/
         width: 45%;
     }
 }
 
 
-@media screen and (max-width: 1500px) {
+/*@media screen and (max-width: 1500px) {
     .img-visit:
 }
 
@@ -15,9 +15,9 @@
     .rental-hotel, .popular {
 
     }
-}
+}*/
 /**** Hébergement à Marseille: 832px ****/
-.container {
+/*.container {
     flex-direction: row;
     flex-wrap: nowrap;
     padding: 0 25px 0 25px;
@@ -29,4 +29,24 @@
 }
 .rental {
     
+}
+}*/
+
+@media screen and (max-width: 1070px) {
+   
+    .places {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .activities .img-tall,.img-small {
+        width: 100%;
+    }
+
+    .img-vieux-port, .img-parc-calanques {
+        min-height: 100px;
+        max-height: 200px;
+    }
+
 }
