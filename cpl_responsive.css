@@ -1,36 +1,203 @@
 @media screen and (max-width: 1262px) {
 
     .rental {
-        /*margin: 0 5px 15px 5px;*/
+        margin: 0 5px 15px 5px;
         width: 45%;
     }
 }
 
 
-/*@media screen and (max-width: 1500px) {
-    .img-visit:
-}
+@media screen and (max-width: 1032px) {
 
-@media  screen and (max-width: ) {
     .rental-hotel, .popular {
-
+        flex: 1;
     }
-}*/
-/**** Hébergement à Marseille: 832px ****/
-/*.container {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    padding: 0 25px 0 25px;
+
+    /**** Hébergements à Marseille : 1008px ****/
+    .container { 
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        padding: 0 25px 0 25px;
 }
 
-.rental-hotel {
-    background-color: #f2f2f2;
-    padding: 15px 10px 15px 20px;
+    .rental-hotel {  
+        background-color: #f2f2f2;
+        padding: 15px 30px 15px 30px;
 }
-.rental {
+
+    .rooms {  
+        width: 100%;
+}
+
+    /**** Les plus populaires : 1008px ****/
+    .the-super {
+    border-radius: 0;
+    padding: 15px 30px 15px 30px;
+    margin-left: 0;
+}
+
+
+@media screen and (max-width: 988px) {
+
+    /**************** Le header : 993px ***************/
+    .logo-loca {
+    display:flex;
+    flex-direction: column;
+}
+
+    .logo {
+        display: block;
+    }
+
+    .logo a {
+        display: flex;
+        justify-content: center;
+    }
+
+   .img-Booki {
+        width: 40%;
+        margin-top: 0;
+        padding-left: 20px;
+        display: flex;
+        justify-content: center;
+}
+
+    .top-menu {
+        width: 100%;
+        display: block;
+}
+
+    .test {
+        display: block;
+        width: 100%;
+}
+
+    .onglets-top {
+        font-weight: bold;
+        list-style-type: none;
+}
+
+    .different-rooms {
+        border-top:#0065fc solid 2px;
+        font-weight: normal;
+}
+
+    .act-top {
+        border-top:white solid 2px;
+        font-weight: normal;
+}
+
+    .act-top:hover {
+        color: #0065fc;
+        border-top: #0065fc solid 2px;
+}
+
+    /**** Texte introduction du site : 988px ****/
+    .introduction { 
+    padding-left: 20px;
+}
+
+    #introduction p {
+    padding-left: 20px;
+}
+
+    /**** Les filtres : 988px *****/
+    .filters { 
+        padding-left: 20px;
+        padding-right: 20px;
+}
+
+    .filters h3 {
+        padding-left: 0;
+        padding-right: 0;
+}
+
+    .filters button {
+        border-radius: 40px;
+        margin-bottom: 20px;
+    }
+
+    /**** Information : 988px ****/
+.information { 
+    padding: 30px 0 30px 20px;
+}
+
+.info p {
+    padding-left: 20px;
+}
+
+.fa-info { 
+    padding: 6px 9px 6px 9px;
+}
+
+    /**** Les plus populaires : 995px ****/
+    .popular {  
+        padding: 20px;
+}
+
+    .favorite { 
+        border-radius: 40px;
+        height: 255px;
+        width: 100%;
+}
+
+    .images { 
+        border-radius: 40px 0 0 40px;
+        width: 270px;
+}
+    .text {
+    padding: 0 0 0 35px;
+    padding-right: 0 0 0 35px;
+}
     
+
+    /**** Hébergement à Marseille : 993px ****/
+    .rental-hotel {  
+        padding: 20px 35px 20px 35px;
 }
-}*/
+
+    .rental { 
+        border-radius: 40px;
+}
+
+    .element-hot { 
+        padding: 0 0 20px 10px;
+}
+    .element-hot p {
+        padding-left: 0;
+        padding-right: 0;
+}
+
+    .element-hot p Auberge La Cannebière {
+        margin: 0 0 20px 0;
+}
+
+    .image { 
+        border-radius: 25px 25px 0 0;
+        width: 200%;
+        height: 110px;
+}
+
+    .element-hot > .grey,.blue {
+        padding-bottom: 15px;
+    }
+
+
+     /**** Activités à Marseille : 995px ****/
+
+    .activities {
+        padding: 50px 5px 5px 30px;
+}
+
+    .activities h2 {
+        padding-left: 5px;
+}
+
+    .activities a img {
+        border-radius: 40px 40px 0 0;
+        min-height: 260px;
+    }
+
 
 @media screen and (max-width: 1070px) {
    
@@ -49,4 +216,158 @@
         max-height: 200px;
     }
 
+}
+
+    .places a {
+        border-radius: 40px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 35px;
+    }
+
+
+     /**** Le footer : 995px ****/
+    footer {
+        margin-top: 20px;
+    }
+
+    .bloc-footer-services { 
+    width: 100%;
+    padding-right: 30px;
+}
+
+
+@media screen and (max-width: 810px) { 
+
+    /**** Introduction du site : 810px ****/
+    .introduction {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    /**** Formulaire : 810px ****/
+    .desktop-search {
+        display: none;
+    }
+
+    .mobile-search {
+        display: flex;
+        border-radius: 16px;
+        margin-left: -11px;
+        font-size: 17px;
+    }
+
+     /**** Les filtres : 810px ****/
+    .filters button {
+        margin-right: 30px;
+    }
+
+    /**** Information : 810px ****/
+    .info {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .fa-info { 
+        margin-right: 10px;
+    }
+
+    /**** Les plus populaires : 810px ****/
+    .images {
+        width: 150px;
+        height: auto;
+    }
+
+    .popular {
+        padding: 20px 10px;
+    }
+
+}
+
+@media screen and (max-width: 783px) {
+
+    .filters button {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width: 681px) {
+
+    a.act-top {
+        padding-left: 30px 10px;
+    }
+
+    .info {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    /**** Formulaire : 400px ****/
+    .form {
+        display: flex;
+        justify-content: center;
+    }
+
+    .country {
+        width: 200px;
+    }
+
+    /***** Le footer : 400px ****/
+    .footer {
+        padding-bottom: 0;
+    }
+
+    .footer-nav {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    /****************** Présentation du site : 330px *******************/
+    .introduction {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /**** Formulaire : 330px ****/
+    .form {
+        padding: 10px 10px 30px 10px;
+    }
+
+    .country {
+        width: 170px;
+    } 
+}
+
+@media screen and (max-width: 300px) {
+
+    /**** Le menu : 300px *****/
+    .top-menu {
+        padding-left: 10px 10px;
+        font-size: 14px;
+    }
+
+    /***** Formulaire : 300px ****/
+    .country {
+        width: 130px;
+    } 
+
+    /**** Les plus populaires : 300px ****/
+    .text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .images {
+        width: 100px;
+        height: auto;
+    }
 }
