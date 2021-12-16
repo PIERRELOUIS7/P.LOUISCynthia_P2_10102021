@@ -17,23 +17,21 @@
     .container { 
         flex-direction: column-reverse;
         flex-wrap: nowrap;
-        padding: 0 25px 0 25px;
+        padding: 0;
 }
 
     .rental-hotel {  
-        background-color: #f2f2f2;
+        background-color: white;
         padding: 15px 30px 15px 30px;
 }
 
-    .rooms {  
-        width: 100%;
-}
 
     /**** Les plus populaires : 1008px ****/
-    .the-super {
-    border-radius: 0;
-    padding: 15px 30px 15px 30px;
-    margin-left: 0;
+        .the-super {
+        border-radius: 0;
+        padding: 15px 30px 15px 30px;
+        margin-left: 0;
+    }
 }
 
 
@@ -60,22 +58,26 @@
         padding-left: 20px;
         display: flex;
         justify-content: center;
-}
+        padding-right: 0;
+    }
 
     .top-menu {
         width: 100%;
         display: block;
 }
 
-    .test {
+    .decided {
         display: block;
         width: 100%;
-}
+    }
 
-    .onglets-top {
+    .onglets-top li {
         font-weight: bold;
         list-style-type: none;
-}
+        width: 100%;
+        display: block;
+    }
+
 
     .different-rooms {
         border-top:#0065fc solid 2px;
@@ -130,7 +132,7 @@
     padding: 6px 9px 6px 9px;
 }
 
-    /**** Les plus populaires : 995px ****/
+    /**** Les plus populaires : 988px ****/ 
     .popular {  
         padding: 20px;
 }
@@ -157,7 +159,7 @@
 }
 
     .rental { 
-        border-radius: 40px;
+        width: 100%;
 }
 
     .element-hot { 
@@ -174,7 +176,6 @@
 
     .image { 
         border-radius: 25px 25px 0 0;
-        width: 200%;
         height: 110px;
 }
 
@@ -371,3 +372,9 @@
         height: auto;
     }
 }
+
+/*revoir indentation des accolades et vérifier les fermetures d'accolades*/
+/*éviter des noms de class qui se termine par s: recommandé pour éviter de se tromper*/
+/*Ranger les media queries dans l'ordre décroissant*/
+/*Renommer la class .test : pas oublier de les modifier dans les 2 li, dans le CSS et le responsive*/
+/*Revoir tous les commentaires des tailles de px des media queries*/
