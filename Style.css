@@ -34,6 +34,7 @@ p {
     font-weight: normal;
     font-size: 14px;
     padding-right: 20px;
+    
 }
 ul {
     color:black;
@@ -70,7 +71,7 @@ ul {
     padding: 0;
 }
 
-.test {
+.decided {
     display: block;
     padding: 30px;
     text-align: center;
@@ -282,6 +283,7 @@ form button {
     font-size: 8px;
     border: #f2f2f2 2px solid;
     padding: 6px 9px 6px 9px;
+    margin-right: 10px;
     border-radius: 50%;
 }
 
@@ -472,7 +474,7 @@ form button {
 
 /*Espace entre les icônes étoiles et le texte*/
 .space-stars {
-    padding: 10px 20 0 20;
+    padding: 10px 20px 0 20px;
 }
 
 /**** Images de la section Les plus populaires ****/
